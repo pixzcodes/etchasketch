@@ -1,5 +1,8 @@
 body{
     background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #gridContainer{
@@ -9,3 +12,7 @@ body{
     height: auto;
 }
 
+#gridSizeBtn{
+    padding: 10px;
+    margin-right: 25px;
+}
